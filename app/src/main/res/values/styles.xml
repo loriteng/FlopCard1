@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1fab89</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- This is the styling for action bar -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!--To change the text styling of options menu items</item>-->
+        <item name="android:itemTextAppearance">@style/MyActionBar.MenuTextStyle</item>
+        <!--To change the background of options menu-->
+        <item name="android:itemBackground">#1fab89</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+
+    <!-- MyActionBa背景顏色設定-->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:itemBackground">#1fab89</item>
+        <item name="titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+
+    <!-- MyActionBa 左方程式名稱字形顏色 -->
+    <style name="MyActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#b5ff7d</item>
+    </style>
+
+    <!-- MyActionBa 左方程式名稱字形顏色 -->
+    <style name="MyActionBar.MenuTextStyle"
+        parent="style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#f2f2f2</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="bg01" >
+        <item name="android:background">@drawable/bg101</item>
+    </style>
+
+    <style name="bg02" >
+        <item name="android:background">@drawable/axolotl</item>
+    </style>
+
+    <style name="myText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#880</item>
+    </style>
+
+</resources>
