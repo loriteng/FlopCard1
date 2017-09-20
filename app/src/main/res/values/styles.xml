@@ -41,7 +41,7 @@
 
 
     <style name="bg01" >
-        <item name="android:background">@drawable/bg101</item>
+        <item name="android:background">@mipmap/drawable</item>
     </style>
 
     <style name="bg02" >
